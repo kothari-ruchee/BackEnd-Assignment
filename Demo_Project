@@ -22,15 +22,16 @@ The goal of this demo-project is to build a GraphQL service for space flight boo
 ### Libraries
 
 -  `knex` for database migration and database querying
--  `jest` for testing
 
 
 ### Data
 
-You will find two files with some data to help you get started:
+sample files with some data to help you get started:
 
 - `./planets.json` contains the available planets.
 - `./space-centers.json` contains a list of space centers and their planet's code.
+- `./bookings.json` dummy bookings information.
+- `./flights.json` dummy flights information.
 
 
 ## Functional specifications
