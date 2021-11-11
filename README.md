@@ -291,7 +291,7 @@ _Relations_:
 
   ```graphql
   query bookings {
-    bookings(email: "test@strapi.io", page: 1) {
+    bookings(email: "test@abc.io", page: 1) {
       pagination {
         total
         page
@@ -382,7 +382,7 @@ _Relations_:
   ```graphql
   mutation book {
     bookFlight(
-      bookingInfo: { seatCount: 10, flightId: 1, email: "test@strapi.io" }
+      bookingInfo: { seatCount: 10, flightId: 1, email: "test@abc.io" }
     ) {
       id
       flight {
