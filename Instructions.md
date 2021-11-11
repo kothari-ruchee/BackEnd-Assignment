@@ -13,9 +13,5 @@ docker exec <server_container_name> npm run migrate
 docker exec <server_container_name> npm run seed
 
 
-Note: Inserted only planets and space_centers data. 
-To insert dummy flights and bookings data uncomment the portion in database/seed.js file
-
-
 # To delete the docker containers 
 docker-compose down
